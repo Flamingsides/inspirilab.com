@@ -201,34 +201,56 @@
       <!-- Footer -->
       <footer class="bg-gray-900 text-white py-12">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div class="grid md:grid-cols-4 gap-8">
+          <div class="grid md:grid-cols-3 gap-12 pb-10 border-b border-gray-800">
+
+            <!-- Col 1: Logo + Tagline -->
             <div>
-              <div class="flex items-center space-x-2 mb-4">
-                <img src="/logo.png" alt="Inspirilab" class="h-12 w-auto" />
-              </div>
-              <p class="text-gray-400 mb-4">
+              <img src="/logo.png" alt="Inspirilab" class="h-15 w-auto mb-4" />
+              <p class="text-gray-400 text-sm leading-relaxed max-w-xs">
                 Where innovation meets inspiration. Creating solutions that transform ideas into reality.
               </p>
-
             </div>
+
+            <!-- Col 2: Navigation -->
             <div>
-              <div class="flex items-center space-x-2 mb-4">
-                <a href="https://www.linkedin.com/company/inspirilabcom">
-                  <img src="/linkedin-logo.svg" alt="Inspirilab" class="h-8 w-auto m-2 ml-0" />
+              <p class="text-xs font-medium tracking-widest text-gray-500 uppercase mb-4">Company</p>
+              <ul class="space-y-3">
+                <li><a href="#home" class="text-gray-400 text-sm hover:text-[#23b573] transition-colors">Home</a></li>
+                <li><a href="#about" class="text-gray-400 text-sm hover:text-[#23b573] transition-colors">About</a></li>
+                <li><a href="#technologies"
+                    class="text-gray-400 text-sm hover:text-[#23b573] transition-colors">Technologies</a></li>
+              </ul>
+            </div>
+
+            <!-- Col 3: Contact -->
+            <div>
+              <p class="text-xs font-medium tracking-widest text-gray-500 uppercase mb-4">Contact</p>
+              <address class="text-gray-400 text-sm not-italic leading-relaxed mb-5">
+                Level 3, Wisma Suria<br />
+                Jalan Teknokrat 6<br />
+                Cyberjaya 63000<br />
+                Malaysia
+              </address>
+              <div class="flex items-center gap-3">
+                <a href="https://www.linkedin.com/company/inspirilabcom" target="_blank" rel="noopener noreferrer"
+                  class="w-8 h-8 rounded-md bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 transition-colors"
+                  aria-label="LinkedIn">
+                  <img src="/linkedin-logo.svg" alt="LinkedIn" class="h-4 w-4" />
+                </a>
+                <a href="mailto:hello@inspirilab.com"
+                  class="w-8 h-8 rounded-md bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 transition-colors"
+                  aria-label="Email">
+                  <UIcon name="i-heroicons-envelope" class="w-4 h-4 text-gray-400" />
                 </a>
               </div>
-              <div class="text-gray-400 text-sm">
-                <p class="mb-1">Level 3, Wisma Suria</p>
-                <p class="mb-1">Jalan Teknokrat 6</p>
-                <p class="mb-1">Cyberjaya 63000</p>
-                <p>Malaysia</p>
-              </div>
             </div>
           </div>
 
-          <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Inspirilab. All rights reserved.</p>
+          <!-- Bottom bar -->
+          <div class="pt-8 text-center">
+            <p class="text-gray-500 text-xs">&copy; 2025 Inspirilab. All rights reserved.</p>
           </div>
+
         </div>
       </footer>
     </div>

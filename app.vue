@@ -35,8 +35,8 @@
         <!-- Main Content -->
         <div class="relative z-10 text-center max-w-4xl mx-auto px-4">
           <div class="mb-8">
-            <div class="inline-block bg-gray-900 rounded-2xl px-4 shadow-lg">
-              <img src="/logo.png" alt="Inspirilab" class="h-24 w-auto mx-auto mb-0 animate-fade-in" />
+            <div class="inline-block bg-gray-900 rounded-2xl px-4 p shadow-lg">
+              <img src="/logo.png" alt="Inspirilab" class="mt-8 h-24 w-auto mx-auto mb-0 animate-fade-in" />
             </div>
           </div>
           <h1 class="text-5xl md:text-7xl font-bold text-gray-900 mb-6 leading-tight">

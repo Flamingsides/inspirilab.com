@@ -237,18 +237,14 @@
                   aria-label="LinkedIn">
                   <img src="/linkedin-logo.svg" alt="LinkedIn" class="h-4 w-4" />
                 </a>
-                <a href="mailto:hello@inspirilab.com"
-                  class="w-8 h-8 rounded-md bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 transition-colors"
-                  aria-label="Email">
-                  <UIcon name="i-heroicons-envelope" class="w-4 h-4 text-gray-400" />
-                </a>
+                <span class="text-gray-400 text-sm">Connect with us</span>
               </div>
             </div>
           </div>
 
           <!-- Bottom bar -->
           <div class="pt-8 text-center">
-            <p class="text-gray-500 text-xs">&copy; 2025 Inspirilab. All rights reserved.</p>
+            <p class="text-gray-500 text-s">&copy; 2025 Inspirilab. All rights reserved.</p>
           </div>
 
         </div>
